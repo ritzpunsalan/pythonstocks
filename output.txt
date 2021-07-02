@@ -1,0 +1,32 @@
+in here will 
+
+set sample:
+    500 / 4.45 = 117
+
+    60 trades are profitable: 60 x $0.06 x 7,500 shares = $27,000.
+    45 trades are losers: 45 x $0.04 x 7,500 shares = ($13,500).
+    The gross profit is $27,000 - $13,500 = $13,500.
+
+invested money = 500
+im
+stock price = 4.45
+sp
+for i in range (0.02,2)
+    print(i)
+    
+stock shares available = 117
+ssa 
+
+    117 * (0.03*2 + 0.04*3 + 0.05.4) = 44.46
+
+positive gain = 0.03
+pg
+multi bounce gain necessary = (0.03*2 + 0.04*3 + 0.05.4)
+mbgn
+total gain = 44.46
+tg
+
+>>>
+    the amount I invested is (in).
+    the goal i want is (tg) per day. weekly only. I have weekends off. if the odds are much higher in the gains, even better.
+    

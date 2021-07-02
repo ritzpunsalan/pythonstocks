@@ -1,0 +1,13 @@
+what is your questions?
+how will you answer them?
+
+how much are you invested in webull ?
+cmv
+    'You currently invested $' + cmv + ' into webull.'
+what is the buy-in stock cost?
+csp
+    'The current buy-in is' + csp + '.'
+how much stock are available to you?
+mii 
+
+what if i don't know how much i can attribute in the stock?

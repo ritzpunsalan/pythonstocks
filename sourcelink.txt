@@ -1,0 +1,8 @@
+sourcelink:
+E:\Desktop\current projects\stock stats
+
+source sites:
+    https://learnpythonbreakpython.com/?s=c12
+
+github solution link:
+    https://www.youtube.com/watch?v=IeL7iq7Lb90
