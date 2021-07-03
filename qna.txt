@@ -10,4 +10,25 @@ csp
 how much stock are available to you?
 mii 
 
+what is your end of the day goal?
+
+500 / 49.25 = 11
+
+11 * 0.03 
+
+if 450 / ( 11 * 0.03 ) = 1364
+1364 / 6 = 227
+if the end of the day goal was $450 and I have 11 shares looking for gain increment of 0.03. I would need a positive bounce of 227 a day per hr. 6 hrs a day. 
+
+your lowest goal for the day should be $ 5 a day.
+that is if 
+if 5 / ( 11 * 0.03 ) = 15
+15 / 6 = 2
+
+
+if 450 / 11 * ((0.03 * 2) + (0.04 * 3) + (0.05 * 4) + (0.06 * 5)) = 28
+
+28 / 6 = 4
+bi = 4 in a day per hour. that is having spent 6 hrs a day.
+
 what if i don't know how much i can attribute in the stock?

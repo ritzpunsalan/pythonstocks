@@ -30,6 +30,12 @@ bi = " bounce increments "
 # our_set = {x for x in range(1, 101)}
 # print(our_set)
 
+a = 1
+
+while a == 1:
+b = input(“what’s your name?”)
+print(“Hi”, b, “, Welcome to Intellipaat!”)
+
 
 def current_money(cmv):
     cmv = input('How much are you invested in webull?')

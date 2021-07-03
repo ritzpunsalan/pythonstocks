@@ -18,3 +18,14 @@ sourcelink:
 git fetch origin
 git reset --hard
 git status
+
+sourcelink:
+    https://stackoverflow.com/questions/18382986/git-rename-local-branch-failed
+
+git status
+git add .
+git commit -m 'Init'
+
+    works!!
+
+... go with the already existing!!
