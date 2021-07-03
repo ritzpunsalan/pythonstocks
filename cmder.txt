@@ -2,29 +2,12 @@ git ...
 ...
 
 sourcelink:
-    https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files
-
-
-git reset --hard origin/branch_to_overwrite
-git fetch --all
-git branch backup-master
-git reset --hard origin/master
-
-    does not work!!
-
-sourcelink:
-    https://stackoverflow.com/questions/1628088/reset-local-repository-branch-to-be-just-like-remote-repository-head
-
-git fetch origin
-git reset --hard
-git status
-
-sourcelink:
     https://stackoverflow.com/questions/18382986/git-rename-local-branch-failed
 
 git status
 git add .
-git commit -m 'Init'
+git commit -m "Init"
+git push
 
     works!!
 
