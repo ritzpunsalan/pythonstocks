@@ -15,9 +15,23 @@
 # for i in range(3, 16, 3):
 #     quotient = 300 / i
 #     print(f"300 divided by {i} is {int(quotient)}.")
+"""
+# making the formulas for the division
 
 import numpy as np
 
 for i in np.arange(13.16, 46.76):
     quotient = 500 / i
     print(f"500 divided by {i} is {int(quotient)}.")
+
+this works!!
+
+"""
+import numpy as meep
+
+cmv = int(input("how much are you invested in webull? "))
+# print("'You currently invested $" + cmv + " into webull.'")
+
+for i in meep.arange(13.16, 46.76):
+    quotient = (cmv / i)
+    print(f"{cmv} divided by {i} is {int(quotient)}.")

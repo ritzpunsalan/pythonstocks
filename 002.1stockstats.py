@@ -2,6 +2,8 @@
 
 # "this is what I'll be investing in."
 
+
+
 cmv = " current money value "
 """ $500 """
 mii = " money invested in "
@@ -14,8 +16,17 @@ bi = " bounce increments "
 # n = 100
 
 # (/)
+""" 
+# making the formulas for the division
 
+import numpy as np
 
+for i in np.arange(13.16, 46.76):
+    quotient = 500 / i
+    print(f"500 divided by {i} is {int(quotient)}.")
+
+this works!!
+"""
 # cmv = 1500
 # mii = 500
 
@@ -33,6 +44,16 @@ bi = " bounce increments "
 
 # our_set = {x for x in range(1, 101)}
 # print(our_set)
+
+print("how much are you invested in webull ?")
+print("You currently invested $' + cmv + ' into webull.")
+print("what is the buy-in stock cost?")
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
 
 a = 1
 
