@@ -5,11 +5,17 @@ how much are you invested in webull ?
 cmv
     'You currently invested $' + cmv + ' into webull.'
 what is the buy-in stock cost?
-csp
+cbp
     'The current buy-in is' + csp + '.'
 how much stock are available to you?
 mii 
 
+If I invest $500; How much stock can I have?
+range = > 13, 47
+500 / (13.45, 47.34) = mii
+I would have (this much mii ) stock available to me.
+mii = {x for x in range(1, 101)}
+# print(mii)
 what is your end of the day goal?
 
 500 / 49.25 = 11

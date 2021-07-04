@@ -1,6 +1,6 @@
 
 
-#Quiz Class
+# Quiz Class
 '''
 Class: A class is a blueprint for a particular object
 it stores the attributes of that object
@@ -10,7 +10,7 @@ In this class a quiz has 3 attributes - the question the valid choices and the a
 '''
 
 
-class Quiz:
+class stocks:
 
     def __init__(self, question, answer_keys, correct_answer, points):
         self.question = question  # question to be asked
@@ -19,18 +19,18 @@ class Quiz:
         self.points = points  # points for correct answer
 
 
-#create a list of questions, answers and answer keys
-#("\n" will put the text on a new line in the console)
+# create a list of questions, answers and answer keys
+# ("\n" will put the text on a new line in the console)
 questions = [
     # Question (instance)                                                                                  #answer keys   #answer
-    Quiz("What color are apples? (type 'exit' to quit)" + "\n" + "(a) Green/Red" + \
-         "\n" + "(b) 5" + "\n" + "(c) black \n\n", ["a", "b", "c"], "a", 5),
-    Quiz("What color are bananas? (type 'exit' to quit)" + "\n" + "(a) white" + \
-         "\n" + "(b) yellow" + "\n" + "(c) black \n\n", ["a", "b", "c"], "b", 5),
-    Quiz("What color are oranges (type 'exit' to quit)" + "\n" + "(a) houses" + "\n" + "(b) the sun" + "\n" + "(c) orange \n\n", ["a", "b", "c"], "c", 5)]
+    stocks("What color are apples? (type 'exit' to quit)" + "\n" + "(a) Green/Red" + \
+           "\n" + "(b) 5" + "\n" + "(c) black \n\n", ["a", "b", "c"], "a", 5),
+    stocks("What color are bananas? (type 'exit' to quit)" + "\n" + "(a) white" + \
+           "\n" + "(b) yellow" + "\n" + "(c) black \n\n", ["a", "b", "c"], "b", 5),
+    stocks("What color are oranges (type 'exit' to quit)" + "\n" + "(a) houses" + "\n" + "(b) the sun" + "\n" + "(c) orange \n\n", ["a", "b", "c"], "c", 5)]
 
 
-#function to present questions to user
+# function to present questions to user
 def run_test(questions):
     score = 0  # set base score as zero
 
@@ -48,17 +48,17 @@ def run_test(questions):
             quit()
 
         ###validate user input###
-        #repeat user prompt if answer is not in approved list for that question
+        # repeat user prompt if answer is not in approved list for that question
         answer_in_scope = False
         while answer_in_scope is False:
             # if the user answe is not in the choice list prompt user for another answer
             if user_answer not in question_no.answer_keys:
-              answer_in_scope = False
-              print("Not A valid option, Select a valid option: ")
-              user_answer = input(question_no.question).lower().strip()
+                answer_in_scope = False
+                print("Not A valid option, Select a valid option: ")
+                user_answer = input(question_no.question).lower().strip()
 
             else:
-               answer_in_scope = True  # assign true if the answer is a valid choice to move on
+                answer_in_scope = True  # assign true if the answer is a valid choice to move on
 
         ###validate answer###
         if (user_answer == question_no.correct_answer):
@@ -70,10 +70,10 @@ def run_test(questions):
             print("Nope! the correct answer is: " +
                   str(question_no.correct_answer) + "\n\n")
 
-            #quiz points is the iteration variable - we sum points for the all the questions to get the total points
+            # quiz points is the iteration variable - we sum points for the all the questions to get the total points
     print("You're score is: " + str(score) + "/" +
           str(sum(quiz_points.points for quiz_points in questions)))  # calculate the score
 
 
-#run the quiz
+# run the quiz
 run_test(questions)

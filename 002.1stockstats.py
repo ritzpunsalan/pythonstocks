@@ -3,9 +3,13 @@
 # "this is what I'll be investing in."
 
 cmv = " current money value "
+""" $500 """
 mii = " money invested in "
-csp = " current stock price (stock price) "
+""" 11 share (much more when the cbp cost is low) """
+cbp = " current buy-in price (stock price) "
+""" 14.35 ... etc up to $50 to be safe """
 gi = " gain increments "
+""" (+ 0.03 and higher) """
 bi = " bounce increments "
 # n = 100
 

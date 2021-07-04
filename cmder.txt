@@ -8,6 +8,8 @@ git status
 git add .
 git commit -m "Init"
 git push
+    or 
+git push origin main
 
     works!!
 

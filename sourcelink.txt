@@ -6,3 +6,6 @@ source sites:
 
 github solution link:
     https://www.youtube.com/watch?v=IeL7iq7Lb90
+
+division source:
+    https://realpython.com/python-range/
