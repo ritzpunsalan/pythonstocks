@@ -5,10 +5,19 @@
 #     quotient = num / 3
 #     print(f"{num} divided by 3 is {int(quotient)}.")
 
+# import numpy as np
 
-mmi = [x for x in range(14.45, 45.55)]
-numm = 500
+# for i in np.arange(0.3, 1.6, 0.3):
+#     print(i)
 
-for numm in mmi:
-    quotient = numm / mmi
-    print(f"{numm} divided by {mmi} is {int(quotient)}.")
+# for i in range(3, int(n**0.5)+1, 2)
+
+# for i in range(3, 16, 3):
+#     quotient = 300 / i
+#     print(f"300 divided by {i} is {int(quotient)}.")
+
+import numpy as np
+
+for i in np.arange(13.16, 46.76):
+    quotient = 500 / i
+    print(f"500 divided by {i} is {int(quotient)}.")
