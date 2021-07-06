@@ -10,13 +10,19 @@ cbp
 how much stock are available to you?
 mii 
 
-If I invest $500; How much stock can I have?
+If I invest $500, How much stock can I have?
 range = > 13, 47
 500 / (13.45, 47.34) = mii
 I would have (this much mii ) stock available to me.
 mii = {x for x in range(1, 101)}
 # print(mii)
+
+what is your lowest buy-in stock?
+lbis
+what is your highest buy-in stock?
+hbis
 what is your end of the day goal?
+
 
 500 / 49.25 = 11
 
