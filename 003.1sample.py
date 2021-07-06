@@ -30,7 +30,7 @@ this works!!
 import numpy as meep
 
 cmv = int(input("how much are you invested in webull? "))
-# print("'You currently invested $" + cmv + " into webull.'")
+print(f"You currently invested ${cmv} into webull.")
 
 for i in meep.arange(13.16, 46.76):
     quotient = (cmv / i)
